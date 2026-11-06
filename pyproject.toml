@@ -1,0 +1,7 @@
+[project]
+name = "engineering-agent-demo"
+version = "0.1.0"
+description = "A standard-library HTTP quote service for a CI repair benchmark."
+readme = "README.md"
+requires-python = ">=3.12,<3.14"
+dependencies = []

@@ -1,0 +1,5 @@
+{
+  "currency": "USD",
+  "free_shipping_threshold_cents": 5000,
+  "shipping_cents": 499
+}
