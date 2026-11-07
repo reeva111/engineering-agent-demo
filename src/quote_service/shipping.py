@@ -8,7 +8,7 @@ def calculate_quote(
     shipping_cents: int,
     currency: str,
 ) -> dict[str, int | str]:
-    shipping_cost = 0 if subtotal_cents >= free_shipping_threshold_cents else shipping_cents
+    shipping_cost = 0 if subtotal_cents > free_shipping_threshold_cents else shipping_cents
     return {
         "subtotal_cents": subtotal_cents,
         "shipping_cents": shipping_cost,
