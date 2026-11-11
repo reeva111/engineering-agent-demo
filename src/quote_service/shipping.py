@@ -12,6 +12,6 @@ def calculate_quote(
     return {
         "subtotal_cents": subtotal_cents,
         "shipping_cents": shipping_cost,
-        "total_cents": subtotal_cents + shipping_cost,
+        "total": subtotal_cents + shipping_cost,
         "currency": currency,
     }
